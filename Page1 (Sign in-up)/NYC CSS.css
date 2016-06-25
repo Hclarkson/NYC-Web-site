@@ -1,0 +1,70 @@
+ #SignUp {
+	 position: fixed;
+  	top: 40%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+   }
+  
+   a:link {
+     color: #FFFFFF;
+   }
+   a:visited {
+     color: #FFFFFF;
+   }
+
+#submit-btn {
+     	color: white;
+     	background-color: red;
+	position:relative;
+	width:250px;
+	color:#FFF;
+	display:block;
+	text-decoration:none;
+	margin:0 auto;
+	border-radius:5px;
+	border:solid 1px #D94E3B;
+	background:#cb3b27;
+	text-align:center;
+	padding:20px 30px;
+
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+
+	-webkit-box-shadow: 0px 9px 0px #84261a;
+        -moz-box-shadow: 0px 9px 0px #84261a
+	box-shadow: 0px 9px 0px #84261a;
+    }
+
+#submit-btn:active {
+    	-webkit-box-shadow: 0px 2px 0px #84261a;
+  	 -moz-box-shadow: 0px 2px 0px #84261a;
+    	box-shadow: 0px 2px 0px #84261a;
+    	position:relative;
+    	top:7px;
+     }
+ body {
+      	text-align: center;
+	background: url("Page 1 Background.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+      	color: white;
+      	font-family: helvetica;
+    }
+  p {
+      	font-size: 137.50%;
+        font-family:Oswald ;
+    }
+    p span {
+        font-family:Arvo ;
+    }
+    	input {
+      	border: 0;
+      	padding: 10px;
+      	font-size: 18px;
+    }
+    a {
+      text-decoration: none;
+    }

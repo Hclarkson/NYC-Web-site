@@ -1,0 +1,113 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 575%;
+  color: #544d4d;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+  margin: 45% 0;
+}
+h2 {
+  text-align: center;
+  font-size: 275%;
+  color: #e5e5e5;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+}
+/*---start parallax---*/
+.parallax {
+  background: url("skyline-buildings-new-york-skyscrapers.jpg") repeat fixed 100%;
+}
+.parallax-inner {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+/*---end parallax---*/
+#lines {
+float: left;
+padding: 1;
+}
+
+#map {
+  position: fixed;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+body {
+  background-color: #191919;
+}
+#open:active {
+  color: #191919;
+}
+.sidenav * {
+    color:  99
+}
+#side-nav-bar {
+  color: #544d4d;
+}
+a {
+  color: #1919190;
+  background-color: #544d4d ;
+}
+.nav-bar-li {
+    color:  #544d4d;
+}
+#nav-bar-text {
+  text-align: justify;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #544d4d; 
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.Slides {
+  display: none;
+}
+.slide {
+      float: left;
+      margin: 0;
+      text-align: center;
+      padding: 0;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #191919;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+  color: #f1f1f1;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px !important;
+  margin-left: 50px;
+}
+
+#main {
+transition: margin-left .5s;
+padding: 20px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
